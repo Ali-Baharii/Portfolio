@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+		<div class="fh5co-loader"></div>
+
+		<div id="page">
+			<nav class="fh5co-nav" role="navigation">
+				<div class="container">
+					<div class="fh5co-top-logo">
+						<div id="fh5co-logo"><a href="index.html">Ali Bahari</a></div>
+					</div>
+					<div class="fh5co-top-menu menu-1 text-center">
+						<ul>
+							<li><a href="work.html">Projects</a></li>
+							<li><a href="about.html">Resume</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="fh5co-top-social menu-1 text-right">
+						<ul class="fh5co-social">
+							<li><a href="https://www.linkedin.com/in/baharialireza/"><i class="icon-linkedin"></i></a></li>
+							<li><a href="https://x.com/alrza98?s=21"><i class="fab fa-x-twitter"></i></a></li>
+							<li><a href="https://github.com/Ali-Baharii"><i class="fab fa-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+	
+	<div id="fh5co-author">
+		<div class="container">
+			<div class="row top-line animate-box">
+				<div class="col-md-6 col-md-offset-1 col-md-push-1 text-left fh5co-heading">
+					<h2>Miniature Magnetic Valve</h2>
+					<p style="text-align: justify;">A miniaturized valving mechanism was integrated into the BreathPod to enable precise flow control and reliable switching between sampling modes. This design requires full isolation of the sample path from electronic components to ensure contamination-free operation while to allow actuation for both alveolar and whole-breath collection.
+					</p>
+					
+					<div class="role">
+						<h3>Details</h3>
+						<ul>
+							<li>MASC Project</li>
+							<li>Hill Lab</li>
+							<li>2022-2025</li>
+						</ul>
+					</div>
+
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<video src="images/valving.mp4" autoplay loop muted playsinline style="width:100%; border-radius:0px;"></video>
+
+					<p class="animate-box"><img src="images/Valving2.png" class="img-responsive" ></p>
+					<p class="animate-box"><img src="images/Valving3.png" class="img-responsive" ></p>
+					<video src="images/Valving5.m4v" autoplay loop muted playsinline style="width:100%; border-radius:0px;"></video>
+
+					  				
+
+
+
+					<div class="row row-pt-md portfolio-navigation">
+						<div class="col-xs-4 text-left">
+							<a href="UTC.html" class="btn btn-primary btn-outline"><i class="icon-chevron-left"></i> Prev </a>
+						</div>
+						<div class="col-xs-4 text-center">
+							<a href="work.html" class="btn btn-primary btn-outline"><i class="icon-grid2"></i> View All</a>
+						</div>
+						<div class="col-xs-4 text-right">
+							<a href="PCB.html" class="btn btn-primary btn-outline">Next <i class="icon-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row copyright">                    
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2025 Ali Bahari. All Rights Reserved.</small> 
+						
+						<small class="block">Designed by me with inspiration from HTML5.co
+						
+					</p>
+					
+					<ul class="fh5co-social-icons">
+						<li><a href="https://www.linkedin.com/in/baharialireza/"><i class="icon-linkedin"></i></a></li>
+						<li><a href="https://x.com/alrza98?s=21"><i class="fab fa-x-twitter"></i></a></li>
+						<li><a href="https://github.com/Ali-Baharii"><i class="fab fa-github"></i></a></li>
+					</ul>
+					
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		  var video = document.getElementById("scrollVideo");
+		  if (!video) return;
+		
+		  video.addEventListener('loadedmetadata', function() {
+			var videoDuration = video.duration;
+		
+			function syncVideoToScroll() {
+			  var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+			  var scrollTop = window.scrollY || window.pageYOffset || document.body.scrollTop || 0;
+			  var percent = Math.min(Math.max(scrollTop / docHeight, 0), 1);
+			  var targetTime = percent * videoDuration;
+		
+			  // Use linear interpolation for smoothness (optional)
+			  video.currentTime += (targetTime - video.currentTime) * 0.2; // 0.2 controls "ease" (0=off, 1=instant)
+		
+			  requestAnimationFrame(syncVideoToScroll);
+			}
+		
+			video.pause();
+			syncVideoToScroll();
+		  });
+		});
+		</script>
+		
+		
+
+	</body>
+</html>
+
